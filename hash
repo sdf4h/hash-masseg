@@ -1,0 +1,4 @@
+import hashlib
+myHash = input ("Enter hashable data:")
+hash_object = hashlib.sha512(myHash.encode ())
+print(hash_object.hexdigest)
